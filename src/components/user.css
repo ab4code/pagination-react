@@ -1,0 +1,64 @@
+.user {
+  margin: 5px 100px;
+  position: relative;
+  display: inline-block;
+  left: 180px;
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.user:hover{
+    box-shadow: 2px 2px 12px black;
+    transition: .3s ease-out;
+}
+
+.fname,
+.phone,
+.gender {
+  margin: 5px 0;
+  text-transform: capitalize;
+}
+
+.card {
+    width: 250px;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: #F8FBFE;
+    border-radius: 8px;
+    z-index: 1;
+    padding: 20px;
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   }
+   
